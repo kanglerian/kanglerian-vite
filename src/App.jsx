@@ -57,45 +57,47 @@ const App = () => {
         </div>
       </header>
 
-      <section className="container mx-auto px-4 py-10">
-        <OwlCarousel className='owl-theme text-white text-center' autoplay loop margin={10} dots={false} responsive={options.responsive}>
-          <div class='item'>
-            <i class="fa-brands fa-html5 fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-css3-alt fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-js fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-node-js fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-react fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-php fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-laravel fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-bootstrap fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-sass fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-git-alt fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-github fa-6x"></i>
-          </div>
-          <div class="item">
-            <i class="fa-brands fa-cpanel fa-6x"></i>
-          </div>
-        </OwlCarousel>;
+      <section className="bg-slate-800 px-4 py-10">
+        <div className="container mx-auto ">
+          <OwlCarousel className='owl-theme text-white text-center' autoplay loop margin={10} dots={false} responsive={options.responsive}>
+            <div class='item'>
+              <i class="fa-brands fa-html5 fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-css3-alt fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-js fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-node-js fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-react fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-php fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-laravel fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-bootstrap fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-sass fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-git-alt fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-github fa-6x"></i>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-cpanel fa-6x"></i>
+            </div>
+          </OwlCarousel>
+        </div>
       </section>
 
       <section className="container mx-auto px-4 py-10">
