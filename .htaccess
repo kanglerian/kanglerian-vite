@@ -1,4 +1,0 @@
-<IfModule mod_headers.c>
-  RewriteEngine On
-  RewriteRule ^$ /dist/ [L]
-</IfModule>
