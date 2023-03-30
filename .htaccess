@@ -1,1 +1,4 @@
-RedirectMatch 301 ^/dist/(.*)$ /$1
+<IfModule mod_headers.c>
+    RewriteEngine On
+    RewriteRule ^dist/(.*)$ /repositories/kanglerian-vite/dist/$1 [L,R=301]
+</IfModule>
