@@ -4,6 +4,9 @@ import HtmlCertificate from './certificates/html.jpg'
 import JavascriptCertificate from './certificates/javascript.jpg'
 import WebCertificate from './certificates/web.jpg'
 
+import a305ece9b0 from './images/a305ece9b0.pdf';
+import b9a8f85f9611384c from './images/b9a8f85f9611384c.pdf'
+
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -52,7 +55,8 @@ const App = () => {
             <h1 className="text-4xl font-reguler leading-normal"><b>Write Code</b> for Website as<br />Full-Stack Developer with <b>JavaScript</b>.</h1>
           </div>
           <div className="flex items-center justify-center gap-2">
-            <button className="border border-slate-600 px-5 py-3 text-sm text-slate-200">Lihat aktivitas terbaru <i className="fa-solid fa-arrow-up-right-from-square ml-2" /></button>
+            <a href={a305ece9b0} className="border border-slate-600 px-5 py-3 text-sm text-slate-200" download="UTS-FE-MI21A.pdf">Download Soal UTS MI21A <i class="fa-solid fa-download ml-2"></i></a>
+            <a href={b9a8f85f9611384c} className="border border-slate-600 px-5 py-3 text-sm text-slate-200" download="UTS-FE-MI21B.pdf">Download Soal UTS MI21B <i class="fa-solid fa-download ml-2"></i></a>
           </div>
         </div>
       </header>
@@ -104,7 +108,7 @@ const App = () => {
         <div className="flex flex-col gap-10">
           <div className="text-center space-y-3">
             <h2 className="text-xl text-slate-200">Kami memiliki prinsip agar bekerja sesuai dengan keahlian dan memiliki semangat untuk terus belajar.</h2>
-            <p className="text-base text-slate-200 italic">“Jika satu urusan diserahkan kepada bukan ahlinya, maka tunggulah hari Kiamat.”<br />(HR. Bukhari, no. 6496)</p>
+            <p className="text-base text-slate-200 italic">“Jika satu urusan diserahkan kepada bukan ahlinya, maka tunggulah Kiamat tiba.”<br />(HR. Bukhari: 6015)</p>
           </div>
           <div className="flex flex-wrap items-center justify-center">
             <div className="w-full sm:w-1/2 lg:w-1/3 p-2 text-slate-200">
