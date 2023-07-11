@@ -18,7 +18,7 @@ const Blog = () => {
   }
 
   const listArticles = articles.map((article, i) =>
-    <a href={`/article`} className="transition duration-150 ease-in-out md:hover:-translate-y-1 hover:bg-slate-50 cursor-pointer flex justify-between gap-5 items-center px-5 py-2 md:px-5 md:py-3 rounded-xl">
+    <a href={`/artikel`} className="transition duration-150 ease-in-out md:hover:-translate-y-1 hover:bg-slate-50 cursor-pointer flex justify-between gap-5 items-center px-5 py-2 md:px-5 md:py-3 rounded-xl">
       <div className="space-y-2">
         <h2 className="text-base md:text-lg text-gray-900">{article.judul}</h2>
         <div className="space-x-1">
