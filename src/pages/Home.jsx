@@ -1,17 +1,15 @@
 import React from 'react'
-import PhotoLerian from './images/lerian.jpg'
-import HtmlCertificate from './certificates/html.jpg'
-import JavascriptCertificate from './certificates/javascript.jpg'
-import WebCertificate from './certificates/web.jpg'
 
-import a305ece9b0 from './images/a305ece9b0.pdf';
-import b9a8f85f9611384c from './images/b9a8f85f9611384c.pdf'
+import PhotoLerian from '../images/lerian.jpg'
+import HtmlCertificate from '../certificates/html.jpg'
+import JavascriptCertificate from '../certificates/javascript.jpg'
+import WebCertificate from '../certificates/web.jpg'
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-const App = () => {
+const Home = () => {
 
   const options = {
     responsive: {
@@ -35,8 +33,10 @@ const App = () => {
       <nav className="container mx-auto px-4 py-5">
         <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0">
           <div className="text-slate-200 space-x-2">
-            <a href="mailto:kanglerian@gmail.com" className="border border-slate-700 hover:bg-slate-200 px-3 py-2 rounded-lg text-slate-200 hover:text-slate-800"><i className="fa-solid fa-envelope" /></a>
-            <span className="text-sm">kanglerian@gmail.com</span>
+            <a href={`/blog`} className="border border-slate-700 hover:bg-slate-200 px-3 py-2 rounded-lg text-slate-200 hover:text-slate-800"><i className="fa-solid fa-newspaper mr-2" />
+            <span className="text-sm">Dev Blog</span></a>
+            <a href="mailto:kanglerian@gmail.com" className="border border-slate-700 hover:bg-slate-200 px-3 py-2 rounded-lg text-slate-200 hover:text-slate-800"><i className="fa-solid fa-envelope mr-2" />
+            <span className="text-sm">kanglerian@gmail.com</span></a>
           </div>
           <div className="flex flex-wrap justify-center items-center text-slate-200 text-sm">
             <a href="https://www.linkedin.com/in/kanglerian/" className="transition ease-in-out duration-200 hover:bg-slate-700 px-4 py-2 rounded-lg"><i className="fa-brands fa-linkedin fa-1x mr-1" /> LinkedIn</a>
@@ -54,10 +54,10 @@ const App = () => {
           <div className="text-slate-200 text-center">
             <h1 className="text-4xl font-reguler leading-normal"><b>Write Code</b> for Website as<br />Full-Stack Developer with <b>JavaScript</b>.</h1>
           </div>
-          <div className="flex items-center justify-center gap-2">
+          {/* <div className="flex items-center justify-center gap-2">
             <a href={a305ece9b0} className="border border-slate-600 px-5 py-3 text-sm text-slate-200" download="UTS-FE-MI21A.pdf">Download Soal UTS MI21A <i class="fa-solid fa-download ml-2"></i></a>
             <a href={b9a8f85f9611384c} className="border border-slate-600 px-5 py-3 text-sm text-slate-200" download="UTS-FE-MI21B.pdf">Download Soal UTS MI21B <i class="fa-solid fa-download ml-2"></i></a>
-          </div>
+          </div> */}
         </div>
       </header>
 
@@ -164,4 +164,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home
